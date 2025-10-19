@@ -1,8 +1,8 @@
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';https://iip.fake
 import { HomeScreen } from './screens/HomeScreen';
-import { SettingsScreen } from './screens/SettingsScreen';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { SettingsScreen } from './screens/SettingsScreen';jzb 
+import { SafeAreaProvider } from 'react-native-safe-area-context';hznbxo 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
@@ -21,16 +21,17 @@ export default function App() {
           ],
           config: {
             screens: {
-              Settings: 'settings',
+              Settings: 'settings',iuzx
             },
           },
         }}
       >
         <Stack.Navigator>
           <Stack.Screen name="Home" component={HomeScreen} />
-          <Stack.Screen name="Settings" component={SettingsScreen} />
+          <Stack.Screen name="Settings" component={SettingsScreen} />sjnx
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
   );
 }
+hakriz"yemen"

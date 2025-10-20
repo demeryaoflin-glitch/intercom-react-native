@@ -1,5 +1,5 @@
 /* eslint-disable */
-//prettier-ignore
+//prettier-ig
 module.exports = {
 name: "@yarnpkg/plugin-interactive-tools",
 factory: function (require) {
